@@ -1,0 +1,82 @@
+body{
+    background-color: black;
+}
+#weather{
+    /* border: 1px solid red; */
+    height:550px;
+    width: 450px;
+    background: linear-gradient(135deg,#02fbb9,#5a588b);
+    margin: 20px auto;
+    border-radius: 50px;
+    padding:25px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 25px #555;
+}
+#search{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 5px;
+}
+#search>input{
+    width: 75%;
+    height: 50px;
+    margin-top: 5px;
+    border-radius: 50px;
+    padding-left: 20px;
+    font-size: 20px;
+    border: none;
+}
+#search>input:focus{
+    outline: none;
+}
+#search>button{
+    background-color: white;
+    height: 50px;
+    margin-top: 6px;
+    padding: 8px 10px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 10px 10px 60px white;
+}
+#search>button>img{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    text-align: center;
+    color: white;
+}
+#main>img{
+    height:180px;
+    width:180px;
+}
+#main>#temp{
+    font-size: 45px;
+}
+#main>#cityname{
+    font-size: 40px;
+}
+#container,.row{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: grey; */
+}
+/* .row>div{
+    background-color: blue;
+} */
+.row>img{
+    height:40px;
+    margin-right: 10px;
+    margin-top: 10px;
+    /* width: 50px; */
+}
+.row>div>p{
+    font-size: 20px;
+    /* background-color: red; */
+    margin: 0;
+}
+#humidity,#wind{
+    font-size: 30px;
+}
